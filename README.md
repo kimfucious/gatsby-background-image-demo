@@ -1,1 +1,3 @@
-# Demonstration of behavior illustrating background transitions on page load.
+# What is this?
+
+A demonstration of behaviour illustrating background transitions on page load.
