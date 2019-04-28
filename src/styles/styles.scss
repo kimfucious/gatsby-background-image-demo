@@ -1,0 +1,28 @@
+@import "./bootstrap";
+
+body {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.title--author {
+  @extend .title;
+}
+
+@include media-breakpoint-up(sm) {
+  .title--author {
+    font-size: 48px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .title--author {
+    font-size: 56px;
+  }
+}
