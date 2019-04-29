@@ -11,9 +11,7 @@ import { StaticQuery, graphql } from "gatsby";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "styles/styles.scss";
-import "typeface-exo-2";
 import "typeface-russo-one";
-import "typeface-sanchez";
 
 const Layout = ({ children }) => (
   <StaticQuery
