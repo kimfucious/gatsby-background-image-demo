@@ -1,3 +1,3 @@
 # What is this?
 
-A demonstration of behaviour illustrating background transitions on page load.
+A demonstration of Tim Hagn's awesome [Gatsby Background Image](https://github.com/timhagn/gatsby-background-image) plugin.
