@@ -1,9 +1,9 @@
-import React from "react"
-import SectionOne from "../components/bgCaseyHorner"
-import SectionTwo from "../components/bgStephenWalker"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Element, Link } from "react-scroll"
+import React from "react";
+import SectionOne from "../components/bgCaseyHorner";
+import SectionTwo from "../components/bgStephenWalker";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { Element, Link } from "react-scroll";
 
 const IndexPage = () => (
   <Layout>
@@ -117,6 +117,6 @@ const IndexPage = () => (
       </SectionTwo>
     </Element>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
