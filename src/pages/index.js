@@ -1,9 +1,9 @@
-import React from "react";
-import SectionOne from "../components/bgCaseyHorner";
-import SectionTwo from "../components/bgStephenWalker";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import { Element, Link } from "react-scroll";
+import React from "react"
+import SectionOne from "../components/bgCaseyHorner"
+import SectionTwo from "../components/bgStephenWalker"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { Element, Link } from "react-scroll"
 
 const IndexPage = () => (
   <Layout>
@@ -72,7 +72,7 @@ const IndexPage = () => (
           smooth={true}
           duration={1000}
         >
-          <button className="btn btn-dark mt-3 mb-4">BACK</button>
+          <button className="btn btn-outline-light mt-3 mb-4">BACK</button>
         </Link>
         <a
           style={{
@@ -117,6 +117,6 @@ const IndexPage = () => (
       </SectionTwo>
     </Element>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage
